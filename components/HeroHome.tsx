@@ -5,7 +5,7 @@ import Link from 'next/link';
 export function HeroHome() {
   return (
     <section
-      className="relative min-h-[100vh] flex items-center overflow-hidden"
+      className="relative min-h-[65vh] sm:min-h-[100vh] flex items-center overflow-hidden"
       aria-label="Secțiune principală"
     >
       {/* Background: pune hero.jpg sau interior din locație în public/images/hero.jpg */}
